@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 24px;
+    background-color: snow; 
+}
+
+h1, h2, h3, h4,
+header nav li a {
+    font-family: 'Unbounded', cursive;
+    padding: 5px;
+}
+
+header {
+    padding: 16px;
+}
+
+header .container {
+    padding-left: 30px;
+}
+
+header nav li {
+    display: inline;
+}
+
+header nav li a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container h1 {
+    padding: 16px;
+    font-size: 200%;
+}
+
+.container h2 {
+    padding: 16px;
+    font-size: 125%;
+    background-color: rgb(109, 43, 35);
+    color: antiquewhite;
+    border-radius: 10px;
+}
+
+.sectionA {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionA img {
+    padding: 10px;
+    max-width: 640px;
+}
+
+.sectionA p {    
+    text-align: justify;
+    padding: 20px;
+}
+
+.sectionB {
+    padding: 16px;
+    border: 10px;
+    text-align: center;
+    font-style: italic;    
+}
+
+#questionamento {
+    font-size: 125%;
+    padding: 16px;
+    width: 640px;
+    box-sizing: content-box;
+    border-radius: 15px;
+    border: solid;
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+
+#opinião {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+#opinião #único {
+    padding: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#opinião img {
+    width: 100%;
+    max-width: 600px;
+    padding: 5px;
+}
+
+#opinião ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#opinião li {
+    text-align: justify;
+    max-width: 600px;
+    padding: 16px;
+}
+
+#opinião h3 {
+    padding: 10px;
+}
+
+#opinião fieldset {
+    width: 100%;
+    max-width: 95%;
+    padding-left: 15px;
+    display: inline-flex;
+    border-radius: 7px;
+    margin: 10px;
+    margin-left: 23px;
+    margin-bottom: 20px;
+    border: solid;
+    
+}
+
+#opinião fieldset input {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#opinião fieldset label {
+    font-size: 115%;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#opinião fieldset label:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+#opinião textarea {
+    border: solid;
+    resize: vertical;
+    text-align: justify;
+    padding: 10px;
+    margin: 20px 0 -5px 31px;
+    width: 100%;
+    max-width: 92%;
+    min-height: 200px; 
+    border-radius: 7px;
+}
+
+#opinião textarea:focus {
+    background-color: rgb(240, 240, 213);    
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(240, 240, 213);    
+}
+
+button:hover {
+    background-color: rgb(187, 187, 90);
+}
+
+#opinião button {
+    padding: 5px;
+}
+
+#opinião form div {
+    padding: 5px;
+    margin-left: 30px
+}
+
+#mais {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#mais h2 {
+    padding: 10px;
+}
+
+#mais h3 {
+    font-size: 125%;
+}
+
+#mais h3, h4 {
+    padding: 10px;
+    text-align: center;
+}
+
+.mais {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.compartilhamento ul {
+    margin-top: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.compartilhamento ul img {
+    max-width: 70px;
+    padding: 10px;
+}
+
+.outros-problemas {
+    display: grid;
+    justify-content: center;
+    text-align: justify;
+    max-width: 400px;
+}
+
+.outros-problemas h4 {
+    font-size: 95%;
+}
+
+.outros-problemas ul {
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.outros-problemas li {
+    padding: 5px 5px 5px 5px;
+}
+
+.outros-problemas li a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.outros-problemas li a:hover {
+    text-decoration: underline;
+}
+
+.fale-conosco {
+    max-width: 325px;
+}
+
+.fale-conosco h3 {
+    padding-bottom: 10px;
+}
+
+.fale-conosco input {
+    padding: 2px;
+    margin: 3px;
+}
+
+.fale-conosco textarea {
+    resize: block;
+    padding: 2px;
+    margin: 3px;
+}
+
+.fale-conosco button {
+    padding: 2px;
+    margin-left: 2px;
+}
+
+footer .container {
+    text-align: center;
+    padding: 25px;
+    font-size: 125%;
+    font-weight: 700;
+}
