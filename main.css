@@ -63,6 +63,10 @@ header nav li a {
     padding: 20px;
 }
 
+.sectionA mark:hover {
+    font-weight: 900;
+}
+
 .sectionB {
     padding: 16px;
     border: 10px;
@@ -91,6 +95,10 @@ header nav li a {
     padding: 5px;
     padding-left: 20px;
     padding-top: 20px;
+}
+
+#opinião mark {
+    font-weight: 700;
 }
 
 #opinião img {
@@ -255,12 +263,15 @@ button:hover {
 }
 
 .fale-conosco input {
-    padding: 2px;
+    padding: 5px;
     margin: 3px;
 }
 
 .fale-conosco textarea {
-    resize: block;
+    max-width: max-content;
+    min-height: 75px;
+    resize: vertical;
+    
     padding: 2px;
     margin: 3px;
 }
@@ -270,9 +281,16 @@ button:hover {
     margin-left: 2px;
 }
 
+.fale-conosco textarea:focus,
+.fale-conosco input:focus {
+    background-color: rgb(240, 240, 213);    
+
+}
+
 footer .container {
     text-align: center;
     padding: 25px;
     font-size: 125%;
     font-weight: 700;
 }
+
